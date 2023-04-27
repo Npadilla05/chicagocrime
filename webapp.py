@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title='Chicago Crimes', page_icon=':fire:', layout='wide')
 
 url = 'https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2'
-crime_csv = r'C:\Users\Noki\OneDrive\Desktop\CodingTempleMaterials\capstone_project\crimecapstone.csv'
+crime_csv = r'crimecapstone.csv'
 st.title('Chicago Crimes Capstone Project')
 
 def summary():
